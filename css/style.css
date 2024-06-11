@@ -364,7 +364,6 @@ body {
 	.menu__list {
 		display: none;
 	}
-<<<<<<< HEAD
 	.who-we-are__body {
 		padding: 40px 30px 1px 30px;
 		border-radius: 20px;
@@ -404,20 +403,5 @@ body {
 	}
 	.who-we-are__image img {
 		border-radius: 20px;
-=======
-	.list-menu {
-		display: flex;
-		flex-direction: column;
-		border: 1px solid red;
-		background-color: #fff;
-		width: 100%;
-		padding: 25px 0;
-	}
-	.header-central__title {
-		font-size: 48px;
-	}
-	.header-central__btn {
-		padding: 6px 28px;
->>>>>>> a8f8cd68bd18c3ed2b07e39886eee9ad8379b5f6
 	}
 }
