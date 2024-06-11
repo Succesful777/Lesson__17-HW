@@ -119,6 +119,22 @@ body {
 	margin: 0 15px;
 }
 /* ------------------Menu------------------ */
+/*? ------------------Menu hidden------------------ */
+.menu__hidden {
+	/* background-color: yellowgreen; */
+	display: flex;
+	position: absolute;
+	width: 100%;
+	padding: 20px;
+	transform: translateY(-100%);
+}
+.menu__block {
+	width: 450px;
+	margin: 0 auto;
+	text-align: center;
+	padding-right: 35px;
+}
+/*? ----------------------------------------------- */
 .menu {
 	display: flex;
 	background-color: #fff;
@@ -126,6 +142,7 @@ body {
 	padding: 10px 40px;
 	align-items: center;
 	margin-bottom: 126px;
+	position: relative;
 }
 .menu__body {
 	display: none;
@@ -360,9 +377,13 @@ body {
 	.menu__body span {
 		margin: 1.5px 0px 1.5px 0px;
 	}
+	.menu__body:active + .menu__hidden {
+		transform: translateY(0);
+	}
 	.menu__list {
 		display: none;
 	}
+<<<<<<< HEAD
 	.who-we-are__body {
 		padding: 40px 30px 1px 30px;
 		border-radius: 20px;
@@ -402,5 +423,20 @@ body {
 	}
 	.who-we-are__image img {
 		border-radius: 20px;
+=======
+	.list-menu {
+		display: flex;
+		flex-direction: column;
+		border: 1px solid red;
+		background-color: #fff;
+		width: 100%;
+		padding: 25px 0;
+	}
+	.header-central__title {
+		font-size: 48px;
+	}
+	.header-central__btn {
+		padding: 6px 28px;
+>>>>>>> a8f8cd68bd18c3ed2b07e39886eee9ad8379b5f6
 	}
 }
