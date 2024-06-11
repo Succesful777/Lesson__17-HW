@@ -119,22 +119,6 @@ body {
 	margin: 0 15px;
 }
 /* ------------------Menu------------------ */
-/*? ------------------Menu hidden------------------ */
-.menu__hidden {
-	/* background-color: yellowgreen; */
-	display: flex;
-	position: absolute;
-	width: 100%;
-	padding: 20px;
-	transform: translateY(-100%);
-}
-.menu__block {
-	width: 450px;
-	margin: 0 auto;
-	text-align: center;
-	padding-right: 35px;
-}
-/*? ----------------------------------------------- */
 .menu {
 	display: flex;
 	background-color: #fff;
@@ -376,9 +360,6 @@ body {
 	}
 	.menu__body span {
 		margin: 1.5px 0px 1.5px 0px;
-	}
-	.menu__body:active + .menu__hidden {
-		transform: translateY(0);
 	}
 	.menu__list {
 		display: none;
