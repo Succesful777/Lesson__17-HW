@@ -335,6 +335,7 @@ body {
 	padding: 14px 34px;
 	border-radius: 10px;
 	align-self: start;
+	cursor: pointer;
 }
 
 /*! --------------------------------------Media-------------------------------------------- */
